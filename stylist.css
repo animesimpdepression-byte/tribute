@@ -1,0 +1,33 @@
+.myimg {
+	  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50;
+}
+
+span{
+    margin: 50px;
+}
+
+body{
+    font-size: 24px;
+    font-family: Whimsical;
+    background-color: darkred;
+    color: ghostwhite;
+}
+@font-face{
+    font-family: Whimsical;
+    src: url("Whimsical.otf");
+}
+
+button{
+    font-weight: bold;
+    font-size: 16px;
+    color: darkred;
+    background-color: #28A745;
+    padding: 10px 200px;
+    border: solid 2px #1B2530;
+    border-radius: 50px;
+    margin: 40px auto;
+    display: block;
+}
